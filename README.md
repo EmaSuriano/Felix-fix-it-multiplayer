@@ -3,6 +3,8 @@
 Remake of the retro game: Felix Fix It, with the ability to create rooms dinamically in order to play with another person via HTTPS. Written in C language and using SDL to render the graphics.
 
 
+![Screenshot in Game](https://cloud.githubusercontent.com/assets/3399429/23585038/85bb8eea-0151-11e7-86a4-2a0641feb798.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -30,6 +32,12 @@ This process will result in three new files inside the root folder:
 - Cliente: client process that allow players to join rooms, change nickname and configuration.
 
 
+If you want to rebuild the files, first you need to remove the compiled ones. The following command will wipe them for you!
+
+```
+makeclean
+```
+
 ## Torneo(Server) description
 
 Command to start the server:
@@ -38,7 +46,8 @@ Command to start the server:
 ```
 
 This will bring a dashboard with the description of current matches and players connected: 
-// Paste image of server!
+
+![Server Dashboard](https://cloud.githubusercontent.com/assets/3399429/23585040/85be054e-0151-11e7-9860-42ec3d7a3233.png)
 
 The server will be alive until someone stop manually the process, otherwise it wouldn't close at any time.
 
@@ -59,7 +68,8 @@ The second one allows us to change:
 * Our nickname inside the game and server.
 
 After two players join the waiting room, the server will create a match and there they can start playing:
-//PASTE IMAGE OF MATCH 
+
+![Client Screens](https://cloud.githubusercontent.com/assets/3399429/23585039/85bc1c48-0151-11e7-8bab-ebf60323d3e0.png)
 
 The match will continue until both players are dead. Meanwhile the server is storing all the points of the match, so if one person play more than one game he will gain all the points of the matches.
 
