@@ -1,7 +1,6 @@
-# Multiplayer Felix Fix It!
+# Felix Fix It Multiplayer
 
 Remake of the retro game: Felix Fix It, with the ability to create rooms dinamically in order to play with another person via HTTPS. Written in C language and using SDL to render the graphics.
-
 
 ![Screenshot in Game](https://cloud.githubusercontent.com/assets/3399429/23585038/85bb8eea-0151-11e7-86a4-2a0641feb798.png)
 
